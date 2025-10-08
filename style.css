@@ -26,4 +26,15 @@ a {
     text-decoration: none;
     color: inherit;
 }
+/* Navbar */
+.navbar {
+    padding: 0 16px;
+    height: 56px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--yt-bg);
+    z-index: 100;
+}
 
