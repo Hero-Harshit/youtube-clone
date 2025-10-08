@@ -28,6 +28,9 @@ a {
 }
 /* Navbar */
 .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 0 16px;
     height: 56px;
     position: fixed;
@@ -36,5 +39,24 @@ a {
     right: 0;
     background-color: var(--yt-bg);
     z-index: 100;
+}
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.nav-center {
+    display: flex;
+    align-items: center;
+    flex: 0 1 732px;
+    gap: 12px;
+    margin: 0 40px;
+}
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    min-width: 225px;
+    justify-content: flex-end;
 }
 
