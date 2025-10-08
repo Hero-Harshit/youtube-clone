@@ -26,6 +26,29 @@ a {
     text-decoration: none;
     color: inherit;
 }
+/* Icon Buttons */
+.icon-btn {
+    background: transparent;
+    border: none;
+    color: var(--yt-icon);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.icon-btn:hover {
+    background-color: var(--yt-hover);
+}
+
+.icon-btn .material-symbols-outlined,
+.icon-btn .material-symbols-rounded {
+    font-size: 24px;
+    font-weight: 300;
+}
 /* Navbar */
 .navbar {
     display: flex;
@@ -44,6 +67,9 @@ a {
     display: flex;
     align-items: center;
     gap: 16px;
+}
+.menu-btn {
+    margin-right: 4px;
 }
 .nav-center {
     display: flex;
