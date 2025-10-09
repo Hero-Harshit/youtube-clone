@@ -119,6 +119,12 @@ a {
     color: #888;
     font-weight: 400;
 }
+.keyboard-icon {
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
 .nav-right {
     display: flex;
     align-items: center;
