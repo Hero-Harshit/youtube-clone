@@ -94,6 +94,17 @@ a {
     gap: 12px;
     margin: 0 40px;
 }
+.search-box {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    height: 40px;
+    border: 1px solid var(--yt-border);
+    border-radius: 40px;
+    background-color: var(--yt-search-bg);
+    overflow: hidden;
+    margin-left: 32px;
+}
 .nav-right {
     display: flex;
     align-items: center;
