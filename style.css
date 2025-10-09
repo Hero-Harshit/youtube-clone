@@ -125,6 +125,26 @@ a {
     align-items: center;
     cursor: pointer;
 }
+.search-btn {
+    background-color: var(--yt-hover);
+    border: none;
+    border-left: 1px solid var(--yt-border);
+    width: 64px;
+    height: 100%;
+    color: var(--yt-icon);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-btn:hover {
+    background-color: #3f3f3f;
+}
+
+.search-btn .material-symbols-outlined {
+    font-weight: 300;
+}
 .nav-right {
     display: flex;
     align-items: center;
