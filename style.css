@@ -105,6 +105,20 @@ a {
     overflow: hidden;
     margin-left: 32px;
 }
+.search-box input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    color: var(--yt-text-primary);
+    font-size: 16px;
+    padding: 0 16px;
+    outline: none;
+}
+
+.search-box input::placeholder {
+    color: #888;
+    font-weight: 400;
+}
 .nav-right {
     display: flex;
     align-items: center;
