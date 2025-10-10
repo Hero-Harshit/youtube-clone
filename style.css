@@ -159,4 +159,26 @@ a {
     min-width: 225px;
     justify-content: flex-end;
 }
+.create-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background-color: var(--yt-hover);
+    color: var(--yt-text-primary);
+    border: none;
+    height: 36px;
+    padding: 0 15px;
+    border-radius: 18px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.create-btn:hover {
+    background-color: #3f3f3f;
+}
+
+.create-btn .material-symbols-outlined {
+    font-size: 20px;
+}
 
