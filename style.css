@@ -145,6 +145,13 @@ a {
 .search-btn .material-symbols-outlined {
     font-weight: 300;
 }
+.mic-btn {
+    background-color: var(--yt-search-bg);
+}
+
+.mic-btn:hover {
+    background-color: var(--yt-hover);
+}
 .nav-right {
     display: flex;
     align-items: center;
