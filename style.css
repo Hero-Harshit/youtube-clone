@@ -195,4 +195,37 @@ a {
     cursor: pointer;
     margin-left: 8px;
 }
+/* Main Layout */
+.main-body {
+    display: flex;
+    margin-top: 56px;
+    height: calc(100vh - 56px);
+}
+
+/* Sidebar */
+.sidebar {
+    width: 240px;
+    background-color: var(--yt-bg);
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    padding-right: 12px; /* padding for scrollbar space */
+}
+
+/* Custom scrollbar for sidebar, hidden when not hovering */
+.sidebar::-webkit-scrollbar {
+    width: 8px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+.sidebar:hover::-webkit-scrollbar-thumb {
+    background-color: #717171;
+}
+
+.sidebar-section {
+    padding: 12px 12px;
+}
 
