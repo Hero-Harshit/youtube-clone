@@ -241,6 +241,9 @@ a {
 .sidebar-item:hover {
     background-color: var(--yt-hover);
 }
+.sidebar-item.active {
+    background-color: var(--yt-hover);
+}
 .sidebar-item.title {
     height: 36px;
     gap: 4px;
