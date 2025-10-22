@@ -273,4 +273,33 @@ a {
 .sidebar-item .text-sm {
     font-size: 20px;
 }
+.sidebar-divider {
+    border-bottom: 1px solid var(--yt-border);
+    margin: 4px 0;
+}
+
+.section-title {
+    padding: 6px 12px 4px;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--yt-text-primary);
+}
+
+.subscription-item {
+    gap: 24px;
+}
+
+.sub-avatar {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.blue-dot {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: var(--yt-blue-dot);
+    margin-left: auto;
+}
 
