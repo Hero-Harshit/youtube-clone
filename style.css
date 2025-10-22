@@ -26,6 +26,24 @@ a {
     text-decoration: none;
     color: inherit;
 }
+/* Scrollbar customization */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #717171;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #a0a0a0;
+}
 /* Icon Buttons */
 .icon-btn {
     background: transparent;
