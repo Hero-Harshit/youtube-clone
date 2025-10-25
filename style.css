@@ -320,4 +320,26 @@ a {
     background-color: var(--yt-blue-dot);
     margin-left: auto;
 }
+/* Content Area */
+.content {
+    flex: 1;
+    background-color: var(--yt-bg);
+    overflow-y: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Categories Bar */
+.categories-bar {
+    position: sticky;
+    top: 0;
+    background-color: var(--yt-bg);
+    z-index: 10;
+    padding: 12px 24px;
+    display: flex;
+    gap: 12px;
+    overflow-x: auto;
+    align-items: center;
+}
 
