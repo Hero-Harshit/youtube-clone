@@ -342,6 +342,9 @@ a {
     overflow-x: auto;
     align-items: center;
 }
+.categories-bar::-webkit-scrollbar {
+    display: none;
+}
 .category {
     background-color: var(--yt-hover);
     color: var(--yt-text-primary);
@@ -362,5 +365,30 @@ a {
 .category.active {
     background-color: var(--yt-text-primary);
     color: var(--yt-bg);
+}
+.fade-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    background: linear-gradient(to right, transparent, var(--yt-bg) 70%);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 12px;
+    pointer-events: none;
+}
+
+.fade-right span {
+    background: var(--yt-bg);
+    border-radius: 50%;
+    pointer-events: auto;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.fade-right span:hover {
+    background: var(--yt-hover);
 }
 
