@@ -342,4 +342,21 @@ a {
     overflow-x: auto;
     align-items: center;
 }
+.category {
+    background-color: var(--yt-hover);
+    color: var(--yt-text-primary);
+    border: none;
+    padding: 0 12px;
+    height: 32px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background-color 0.2s;
+}
+
+.category:hover {
+    background-color: #3f3f3f;
+}
 
