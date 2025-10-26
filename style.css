@@ -359,4 +359,8 @@ a {
 .category:hover {
     background-color: #3f3f3f;
 }
+.category.active {
+    background-color: var(--yt-text-primary);
+    color: var(--yt-bg);
+}
 
