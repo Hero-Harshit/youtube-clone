@@ -437,6 +437,13 @@ a {
     gap: 12px;
     align-items: flex-start;
 }
+.channel-avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 2px;
+}
 .video-details {
     display: flex;
     flex-direction: column;
