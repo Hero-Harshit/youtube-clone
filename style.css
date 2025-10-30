@@ -463,3 +463,20 @@ a {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+.channel-name, .video-meta {
+    color: var(--yt-text-secondary);
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.channel-name:hover {
+    color: var(--yt-text-primary);
+}
+
+.check-circle {
+    font-size: 14px !important;
+    color: var(--yt-text-secondary);
+}
