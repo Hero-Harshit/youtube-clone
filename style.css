@@ -480,3 +480,12 @@ a {
     font-size: 14px !important;
     color: var(--yt-text-secondary);
 }
+.more-btn {
+    opacity: 0;
+    width: 24px;
+    height: 24px;
+}
+
+.video-card:hover .more-btn {
+    opacity: 1;
+}
