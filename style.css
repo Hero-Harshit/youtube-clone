@@ -489,3 +489,65 @@ a {
 .video-card:hover .more-btn {
     opacity: 1;
 }
+/* Responsiveness adjustments based on YouTube's grid */
+@media (min-width: 1700px) {
+    .video-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (min-width: 1140px) and (max-width: 1699px) {
+    .video-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1139px) {
+    .video-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 799px) {
+    .video-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 1300px) {
+    .sidebar {
+        width: 72px; /* collapsed sidebar width roughly */
+    }
+    
+    .sidebar .item-text,
+    .sidebar .sidebar-divider,
+    .sidebar .section-title,
+    .sidebar .blue-dot,
+    .sidebar .sidebar-item.title {
+        display: none;
+    }
+
+    .sidebar-item {
+        flex-direction: column;
+        justify-content: center;
+        gap: 4px;
+        height: 74px;
+        padding: 0 4px;
+        margin-bottom: 0;
+        border-radius: 10px;
+    }
+    
+    .sidebar-section {
+        padding: 0 4px;
+    }
+
+    /* We need to re-show text for mini sidebar */
+    .sidebar .item-text {
+        display: block;
+        font-size: 10px;
+    }
+    
+    .subscription-item {
+        display: none;
+    }
+}
